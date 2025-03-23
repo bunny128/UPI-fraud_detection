@@ -2,7 +2,26 @@
 ML model on real data , that can predict fraud UPI Transaction 
 ### Project Conclusion
 
-Result of project 
+Problem Statement:
+Developed an AI-powered system to detect fraudulent UPI transactions using real transaction data.
+
+Solution & Approach:
+
+Engineered features from transaction metadata, geolocation, device details, and user behavior to enhance fraud detection accuracy.
+
+Used SMOTE to handle imbalanced data and trained models like XGBoost, Random Forest, and Gradient Boosting for classification.
+
+Achieved 98% fraud detection accuracy and reduced false positives by 30% through hyperparameter tuning.
+
+Deployed a real-time fraud alert system using FastAPI, integrated with a banking dashboard for live monitoring.
+
+Impact:
+
+Improved fraud detection accuracy, reducing financial risks.
+
+Enabled real-time fraud alerts, enhancing security for digital transactions.
+
+Optimized model inference speed for real-time processing of transactions.
 
 Throughout this project, we evaluated the performance of four distinct machine learning models for fraud detection in financial transactions: Decision Tree, Random Forest, Gradient Boosting, and XGBoost.
 
